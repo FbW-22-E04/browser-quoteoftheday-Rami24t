@@ -12,3 +12,5 @@ const quotes = [
   'There is little success where there is little laughter.',
   'We cannot solve our problems with the same thinking we used when we created them.'
 ];
+
+document.querySelector('input').value = quotes[Math.floor(Math.random() * 12)];
